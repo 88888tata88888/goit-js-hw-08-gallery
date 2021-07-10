@@ -80,11 +80,11 @@ const makeGalleryMarkup = array => {
     .join('');
 };
 
-const craeteMarkup = makeGalleryMarkup(galleryItems); //создал разметку
+const craeteMarkup = makeGalleryMarkup(galleryItems); //создалa разметку
 
-galleryContainer.insertAdjacentHTML('beforeend', craeteMarkup); // вставил разметку
+galleryContainer.insertAdjacentHTML('beforeend', craeteMarkup); // вставилa разметку
 
-// ========== =======
+// ========== слушатели =======
 galleryContainer.addEventListener('click', onGalleryItemClick);
 closeBtn.addEventListener('click', onCloseBtn);
 // ============================

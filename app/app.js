@@ -84,10 +84,10 @@ const craeteMarkup = makeGalleryMarkup(galleryItems); //создалa разме
 
 galleryContainer.insertAdjacentHTML('beforeend', craeteMarkup); // вставилa разметку
 
-// ========== слушатели =======
+
 galleryContainer.addEventListener('click', onGalleryItemClick);
 closeBtn.addEventListener('click', onCloseBtn);
-// ============================
+
 
 function onGalleryItemClick(event) {
   if (!event.target.classList.contains('gallery__image')) {

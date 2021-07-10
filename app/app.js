@@ -84,7 +84,7 @@ const craeteMarkup = makeGalleryMarkup(galleryItems); //создал разме�
 
 galleryContainer.insertAdjacentHTML('beforeend', craeteMarkup); // вставил разметку
 
-// ========== слушатели =======
+// =================
 galleryContainer.addEventListener('click', onGalleryItemClick);
 closeBtn.addEventListener('click', onCloseBtn);
 // ============================
